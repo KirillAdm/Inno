@@ -4,3 +4,7 @@ table {
     border: 1px black solid;
     border-collapse: collapse;
 }
+.Map {
+width: 100px;
+height: 100px;
+}
