@@ -8,3 +8,45 @@ table {
 width: 100px;
 height: 100px;
 }
+form {
+    display:block;
+    width: 500px;
+    background-color: rgb(215, 237, 165);
+    border: 10px rgb(137, 239, 124) solid;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 600px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    margin-bottom: 20px;
+    border: 0px;
+    color: black;
+    margin-left: 50px;
+}
+
+.info{
+    display: grid;
+    border: 0px;
+}
+.pol {
+  border: 0px;
+  display: flex;
+  column-gap: 20px;
+  
+}
+.cell {
+    display: flex; 
+    border: 0px;
+    height: 20px;
+    margin-left: 1px;
+}
+
+.but{
+    color: black;
+    display: inline;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
