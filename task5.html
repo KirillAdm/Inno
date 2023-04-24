@@ -39,7 +39,29 @@
             <input class="but" type="reset">
         </form>
     </header>
-    <main></main>
+    <main>
+        <form action="/index.html" method="post" class="forma2">
+            <fieldset>
+               Ползунок <input type="range" name="vol" id="vol" min="0" max="10" step="1"></fieldset>
+            <fieldset>
+                Страна <select name="city" id="city" required>
+                <option value=""></option>
+                <option value="1">InnoDOM</option>
+                <option value="2">Minsk</option>
+                <option value="3">Vitebsk</option>
+               </select>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" required class="check">Я согласен с условиями
+            </fieldset>
+            <fieldset>
+                <input class="file" type="file">
+                <button class="vib">Зарегистрироваться</button>
+                <input class="vib" type="reset">
+                
+            </fieldset>
+        </form>
+    </main>
     <footer></footer>
 </body>
 </html>

@@ -49,4 +49,25 @@ input{
     margin-left: 70px;
     border-radius: 20px;
     border: 1px black solid;
+    background-color: gray;
+}
+.vib{
+    display: inline;
+    background-color: gray;
+    border:1px black solid;
+    border-radius: 20px;
+    margin-left: 50px;
+    color: black;
+}
+.file{
+    margin-left: 0px;
+}
+.check{
+    margin-left: 0px;
+}
+.forma2{
+    margin: 0px 600px;
+    border-radius: 20px;
+    
+    
 }
